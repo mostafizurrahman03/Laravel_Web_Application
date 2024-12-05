@@ -1,0 +1,487 @@
+/* Background Colors */
+.bg-teal {
+    background-color: #008080; /* Teal background */
+}
+
+.bg-dark-teal {
+    background-color: #005757; /* Dark teal background */
+}
+
+.bg-light-teal {
+    background-color: #99ffff; /* Light teal background */
+}
+
+/* Text Colors */
+.text-teal {
+    color: #008080; /* Teal text color */
+}
+
+/* Hover Effect for List Items */
+.hover-item {
+    transition: background-color 0.3s ease;
+}
+
+.hover-item:hover {
+    background-color: #e0f7fa; /* Light background on hover */
+}
+
+/* List Group Items */
+.list-group-item {
+    border-radius: 0.25rem;
+}
+
+/* Button Styles */
+.btn-icon {
+    background-color: #005757 !important; /* Dark teal */
+    border: none !important;
+    color: white !important;
+    padding: 5px 10px !important;
+    border-radius: 10px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease !important;
+    cursor: pointer !important;
+    font-size: 1rem !important;
+}
+
+.btn-icon:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Specific Button Styles */
+.btn-edit {
+    background-color: #008080 !important;
+}
+
+.btn-edit:hover {
+    background-color: #00b3b3 !important;
+}
+
+.btn-view {
+    background-color: #004040 !important;
+}
+
+.btn-view:hover {
+    background-color: #006666 !important;
+}
+
+.btn-delete {
+    background-color: #ff6347 !important; /* Tomato */
+}
+
+.btn-delete:hover {
+    background-color: #ffcc00 !important; /* Warning yellow */
+}
+
+/* Icon Color Customization */
+.btn-icon i {
+    color: white !important;
+}
+
+.btn-icon:hover i {
+    color: #f0f0f0 !important;
+}
+
+/* Table Styles */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive Adjustments */
+
+
+/* Miscellaneous Styles */
+.inline-header {
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.custom-width-height {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    background: red;
+}
+
+
+/* Header Row Styles */
+.table th {
+    background-color: #005757; /* Dark teal background for header */
+    color: black; /* Black text */
+}
+
+/* Text and Background Colors */
+.text-teal {
+    color: #008080; /* Teal */
+}
+
+.bg-dark {
+    background-color: black; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+.bg-teal {
+    background-color: #008080; /* Teal background */
+}
+
+.bg-dark-teal {
+    background-color: #005757; /* Dark teal background */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important; /* Light background */
+    color: #212529; /* Dark text */
+}
+
+.bg-light-teal {
+    background-color: #99ffff; /* Light teal background */
+}
+
+/* Cards */
+.card {
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.4s ease; /* Smooth transitions */
+    cursor: pointer;
+}
+
+.card:hover {
+    /*background-color: whitesmoke; !* Light hover effect *!*/
+}
+.card-header {
+    font-size: 1.5rem; /* Adjust header font size */
+}
+
+.card-body {
+    font-size: 1.2rem; /* Adjust body font size */
+    background-color: whitesmoke; /* Light hover effect */
+
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.card-subtitle {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/* Links */
+a:hover {
+    color: #004d4d; /* Darker teal on hover */
+}
+
+/* List Group Items */
+.list-group-item {
+    border: none; /* Cleaner look */
+    padding: 10px 15px;
+    border-radius: 0.25rem; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.list-group-item-action:hover {
+    background-color: #e0e0e0; /* Light hover effect */
+}
+
+/* Badges */
+.badge {
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.5rem; /* Slightly rounded */
+    font-size: 0.9rem;
+}
+
+/* Hover Effects */
+.hover-item {
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.hover-item:hover {
+    background-color: #e0f7fa; /* Light teal background */
+    cursor: pointer;
+}
+
+.hover-checkbox {
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hover-checkbox:hover {
+    background-color: #e0f7fa; /* Light teal on hover */
+}
+
+/* Checkbox */
+.form-check-input {
+    width: 1.25em; /* Checkbox size */
+    height: 1.25em;
+    margin-right: 10px; /* Spacing */
+}
+
+/* Toast Notifications */
+#toast-container .toast-success {
+    background-color: #006666 !important; /* Success background */
+    color: #fff !important;
+}
+
+#toast-container .toast-error {
+    background-color: red !important; /* Error background */
+    color: #fff !important;
+}
+
+#toast-container .toast-info {
+    background-color: #17a2b8 !important; /* Info background */
+    color: #fff !important;
+}
+
+#toast-container .toast-warning {
+    background-color: #ff6347 !important; /* Warning background */
+    color: #fff !important;
+}
+
+#toast-container {
+    top: 70px; /* Position */
+}
+
+/* Custom Toast Styles */
+.custom-toast-success {
+    background-color: #006666 !important;
+    color: #fff !important;
+}
+
+.custom-toast-error {
+    background-color: #ff6347 !important;
+    color: #fff !important;
+}
+
+/* Light Theme Overrides */
+.light-theme .bg-dark {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+.light-theme a:hover {
+    color: #006666; /* Lighter teal on hover */
+}
+
+/* Inline Header */
+.inline-header {
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.25rem;
+    color: #007bff; /* Change as needed */
+}
+
+/* Custom Width & Height */
+.custom-width-height {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: inline-block;
+    background: red;
+}
+
+
+
+
+/*------------- Button Styles -------------*/
+.btn-icon {
+    background-color: #005757 !important;
+    border: none !important;
+    color: white !important;
+    padding: 5px 10px !important;
+    border-radius: 10px !important;
+    font-size: 1rem !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease !important;
+    cursor: pointer !important;
+}
+
+.btn-icon:hover {
+    transform: scale(1.1) !important;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Specific Button Colors */
+.btn-edit { background-color: #008080 !important; }
+.btn-edit:hover { background-color: #00b3b3 !important; }
+
+.btn-view { background-color: #004040 !important; }
+.btn-view:hover { background-color: #006666 !important; }
+
+.btn-delete { background-color: #ff6347 !important; }
+.btn-delete:hover { background-color: #ffcc00 !important; }
+
+/* Icons inside buttons */
+.btn-icon i {
+    color: white !important;
+}
+
+.btn-icon:hover i {
+    color: #f0f0f0 !important;
+}
+
+.btn-icon:focus {
+    outline: none !important;
+    box-shadow: 0 8px 25px rgba(0, 128, 128, 0.7) !important;
+}
+
+/* Teal Button */
+.btn-teal {
+    background-color: #008080 !important;
+    color: white !important;
+}
+
+.btn-teal:hover {
+    background-color: #007373 !important;
+}
+
+/*------------- Table Styles -------------*/
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #005757;
+    color: black;
+}
+
+/*------------- Hover Effects -------------*/
+.hover-item, .hover-checkbox {
+    transition: background-color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.hover-item:hover, .hover-checkbox:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+/*------------- Toast Styles -------------*/
+#toast-container {
+    top: 70px;
+}
+
+#toast-container .toast-success { background-color: #006666 !important; }
+#toast-container .toast-error { background-color: red !important; }
+#toast-container .toast-info { background-color: #17a2b8 !important; }
+#toast-container .toast-warning { background-color: #ff6347 !important; }
+
+/*------------- Miscellaneous -------------*/
+.text-teal { color: #008080 !important; }
+.bg-teal { background-color: #008080 !important; }
+.bg-dark-teal { background-color: #005757 !important; }
+.bg-light { background-color: #f8f9fa !important; }
+.bg-dark { background-color: black; color: #ffffff; }
+
+a:hover {
+    color: #004d4d;
+}
+
+.light-theme .bg-dark { background-color: #f8f9fa; color: #212529; }
+.light-theme a:hover { color: #006666; }
+
+
+/* Custom dashboard card styles */
+.dash_board_card {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dash_board_card .card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.dash_board_card .card-body {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Dark Teal background for card */
+.bg-dark-teal {
+    background-color: #004d40; /* Dark Teal */
+    color: #fff;
+}
+
+/* Light Gray background for card */
+.bg-light-gray {
+    background-color: #d3d3d3; /* Light Gray */
+    color: #333;
+}
+
+/* Light Teal background for card */
+.bg-light-teal {
+    background-color: #80cbc4; /* Light Teal */
+    color: #fff;
+}
+
+/* Danger background for card (Red) */
+.bg-danger {
+    background-color: #f44336; /* Red */
+    color: #fff;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Hover effect for card */
+.dash_board_card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+/*------------- Responsive Adjustments -------------*/
+@media (max-width: 768px) {
+    .btn-icon {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-header {
+        font-size: 1.3rem;
+    }
+
+    .card-body {
+        font-size: 1rem;
+    }
+}
+
+/* Responsive Card Adjustments */
+@media (max-width: 768px) {
+    .card-header {
+        font-size: 1.3rem;
+    }
+    .card-body {
+        font-size: 1rem;
+    }
+}
